@@ -4,6 +4,8 @@
 // @author       AntiLink
 // @version      0.0.1
 // @match        https://beatsaver.com/*
+// @downloadURL  https://raw.githubusercontent.com/AntiLink99/beatsaver-additional-info/main/beatsaver-additional-info.user.js
+// @updateURL    https://raw.githubusercontent.com/AntiLink99/beatsaver-additional-info/main/beatsaver-additional-info.user.js
 // ==/UserScript==
 
 (function() {
