@@ -2,6 +2,7 @@
 // @name         BeatSaver Additional Information
 // @description  Add properties to BeatSaver map pages
 // @author       AntiLink
+// @version      0.0.1
 // @match        https://beatsaver.com/*
 // ==/UserScript==
 
