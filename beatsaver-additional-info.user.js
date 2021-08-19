@@ -21,6 +21,9 @@
         if (mapPropertiesList && document.URL.toLowerCase().startsWith("https://beatsaver.com/maps/")) {
             let downloadsProperty = document.createElement('div');
             downloadsProperty.innerHTML = '<div id="map-downloads" class="list-group-item d-flex justify-content-between">Downloads<span id="map-downloads-value" class="text-truncate ml-4">Loading...</span></div>';
+            if (document.getElementById("map-downloads") !== null) {
+                return;
+            }
             mapPropertiesList.appendChild(downloadsProperty.firstChild);
             let mapId = getMapId();
             let response = fetch("https://api.beatsaver.com/maps/id/"+mapId).then(response => response.json()).then(json => {
